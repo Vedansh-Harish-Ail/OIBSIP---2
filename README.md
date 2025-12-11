@@ -48,7 +48,18 @@ Put the file in assets/ (e.g. assets/kalam.jpg).
 <img src="./assets/kalam.jpg" alt="Dr. APJ Abdul Kalam" width="300" height="300"
      class="rounded-full shadow-lg object-cover portrait-img" />
 ```
+
+Option B — use an external SVG (vector)
+Save assets/kalam.svg and use:
+```html
+<img src="./assets/kalam.svg" alt="Kalam (vector)" class="rounded-full portrait-img" />
+```
+Option C — paste new inline SVG
+```sh
+Drop your new <svg>...</svg> where the existing SVG is. Keep viewBox, width & height.
+```
 ---
+
 ## **⚙️ Customize text & theme**
 
 Open index.html and edit the defaultConfig object near the bottom. Example keys:
