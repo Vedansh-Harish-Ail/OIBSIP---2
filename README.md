@@ -29,12 +29,16 @@ python -m http.server 8000
 
 ## **🧭 Project contents**
 
-├─ index.html           # page (markup + small JS config)
-├─ styles.css           # optional external stylesheet
-├─ assets/
-│  ├─ apj-abdul-kalam.jpg  # portrait image
-│  └─ banner.png           # optional hero banner
-└─ README.md
+my-tribute-project/
+│
+├─ index.html
+├─ styles.css
+├─ README.md
+│
+└─ assets/
+     ├─ apj-abdul-kalam.jpg
+     └─ banner.png
+
 
 ---
 
