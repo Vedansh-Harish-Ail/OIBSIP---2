@@ -30,16 +30,10 @@ python -m http.server 8000
 ## **🧭 Project contents**
 
 my-tribute-project/
-│
-
-├─ index.html
-├─ styles.css
 ├─ README.md
-│
 └─ assets/
-     ├─ apj-abdul-kalam.jpg
-     └─ banner.png
-
+   ├─ banner.png
+   └─ apj-abdul-kalam.jpg
 
 ---
 
