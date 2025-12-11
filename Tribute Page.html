@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tribute to Dr. APJ Abdul Kalam</title>
+  <script src="/_sdk/element_sdk.js"></script>
+  <style>
+    body {
+      box-sizing: border-box;
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    .tribute-gradient {
+      background: linear-gradient(135deg, #1e3c72 0%, #2a5298 50%, #7e22ce 100%);
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>@view-transition { navigation: auto; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full">
+  <div id="app" class="w-full h-full overflow-auto tribute-gradient">
+   <div class="min-h-full py-12 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-5xl mx-auto"><!-- Header Section -->
+     <header class="text-center mb-12">
+      <h1 id="page-title" class="text-5xl sm:text-6xl font-bold text-white mb-4 tracking-tight">Dr. APJ Abdul Kalam</h1>
+      <p id="subtitle" class="text-xl sm:text-2xl text-blue-100 font-light">The Missile Man of India &amp; People's President</p>
+      <div class="mt-4 flex justify-center gap-2"><span class="text-blue-200 text-lg">1931 - 2015</span> <span class="text-blue-200 text-lg">•</span> <span class="text-blue-200 text-lg">Scientist, Teacher, Visionary</span>
+      </div>
+     </header><!-- Image Section with SVG Portrait -->
+     <div class="bg-white/95 backdrop-blur rounded-3xl shadow-2xl p-8 mb-8">
+      <div class="flex justify-center mb-6">
+       <!-- replace SVG with this -->
+      <img src="assets/apj-abdul-kalam.jpg"
+          alt="Portrait of Dr. APJ Abdul Kalam"
+          width="600" height="100%"
+          class="rounded-full shadow-lg object-cover portrait-img" />
+
+      </div>
+      <div class="text-center">
+       <div class="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-md">
+        11th President of India (2002-2007)
+       </div>
+      </div>
+     </div><!-- Biography Section -->
+     <div class="bg-white/95 backdrop-blur rounded-3xl shadow-2xl p-8 sm:p-12 mb-8">
+      <h2 class="text-3xl font-bold text-gray-800 mb-6 border-b-4 border-blue-600 inline-block pb-2">A Life of Inspiration</h2>
+      <p id="intro-text" class="text-lg text-gray-700 leading-relaxed mb-6">Dr. Avul Pakir Jainulabdeen Abdul Kalam, born in Rameswaram, Tamil Nadu, rose from humble beginnings to become one of India's most beloved figures. A brilliant scientist and aerospace engineer, he played a pivotal role in India's civilian space program and military missile development, earning him the title "Missile Man of India."</p>
+      <div class="grid md:grid-cols-2 gap-8 my-8">
+       <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-6 rounded-2xl shadow-md">
+        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center"><span class="text-3xl mr-3">🚀</span> Scientific Achievements</h3>
+        <ul class="space-y-2 text-gray-700">
+         <li class="flex items-start"><span class="text-blue-600 mr-2">•</span> <span>Chief architect of India's missile program</span></li>
+         <li class="flex items-start"><span class="text-blue-600 mr-2">•</span> <span>Led Pokhran-II nuclear tests in 1998</span></li>
+         <li class="flex items-start"><span class="text-blue-600 mr-2">•</span> <span>Developed Agni and Prithvi missiles</span></li>
+         <li class="flex items-start"><span class="text-blue-600 mr-2">•</span> <span>Former Director of DRDO and ISRO</span></li>
+        </ul>
+       </div>
+       <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-2xl shadow-md">
+        <h3 class="text-xl font-bold text-gray-800 mb-4 flex items-center"><span class="text-3xl mr-3">🏆</span> Honors &amp; Awards</h3>
+        <ul class="space-y-2 text-gray-700">
+         <li class="flex items-start"><span class="text-purple-600 mr-2">•</span> <span>Bharat Ratna (1997)</span></li>
+         <li class="flex items-start"><span class="text-purple-600 mr-2">•</span> <span>Padma Bhushan (1981)</span></li>
+         <li class="flex items-start"><span class="text-purple-600 mr-2">•</span> <span>Padma Vibhushan (1990)</span></li>
+         <li class="flex items-start"><span class="text-purple-600 mr-2">•</span> <span>Honorary doctorates from 48 universities</span></li>
+        </ul>
+       </div>
+      </div>
+      <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-8 rounded-2xl shadow-xl my-8">
+       <div class="text-6xl mb-4 text-center opacity-50">
+        "
+       </div>
+       <p id="quote-text" class="text-2xl font-light text-center leading-relaxed italic mb-4">Dream is not that which you see while sleeping, it is something that does not let you sleep.</p>
+       <div class="text-6xl text-center opacity-50 transform rotate-180">
+        "
+       </div>
+      </div>
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-8"><span class="text-3xl mr-2">📚</span> Legacy as an Educator</h3>
+      <p class="text-lg text-gray-700 leading-relaxed mb-4">Beyond his scientific contributions, Dr. Kalam was deeply passionate about education and youth empowerment. He visited countless schools and universities, inspiring millions of students to pursue their dreams and contribute to nation-building. His books, including "Wings of Fire" and "Ignited Minds," continue to motivate generations.</p>
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-8"><span class="text-3xl mr-2">🌅</span> Early Life and Struggles</h3>
+      <p class="text-lg text-gray-700 leading-relaxed mb-4">Born on October 15, 1931, in the temple town of Rameswaram, Tamil Nadu, young Kalam grew up in a modest household. His father, Jainulabdeen, was a boat owner and imam of a local mosque, while his mother, Ashiamma, was a housewife. Despite financial hardships, his parents instilled in him strong values of honesty, self-discipline, and faith.</p>
+      <p class="text-lg text-gray-700 leading-relaxed mb-4">To support his family, young Abdul Kalam sold newspapers as a child. He completed his schooling at Rameswaram Elementary School and went on to study at Saint Joseph's College, Tiruchirappalli. His dream of becoming a fighter pilot took him to Madras Institute of Technology (MIT), where he studied aerospace engineering. Though he narrowly missed becoming an Air Force pilot, this setback led him to a greater destiny with DRDO and later ISRO.</p>
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-8"><span class="text-3xl mr-2">🛰️</span> Career Milestones</h3>
+      <div class="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-2xl mb-6">
+       <div class="space-y-4">
+        <div class="border-l-4 border-blue-600 pl-4">
+         <h4 class="font-bold text-gray-800 mb-1">1960s - DRDO Beginnings</h4>
+         <p class="text-gray-700">Started career as a scientist at the Aeronautical Development Establishment of DRDO, designing a small hovercraft.</p>
+        </div>
+        <div class="border-l-4 border-indigo-600 pl-4">
+         <h4 class="font-bold text-gray-800 mb-1">1969 - ISRO Transfer</h4>
+         <p class="text-gray-700">Joined Indian Space Research Organisation as project director of India's first Satellite Launch Vehicle (SLV-III), which successfully deployed the Rohini satellite.</p>
+        </div>
+        <div class="border-l-4 border-purple-600 pl-4">
+         <h4 class="font-bold text-gray-800 mb-1">1980s - Missile Development</h4>
+         <p class="text-gray-700">Led the Integrated Guided Missile Development Programme (IGMDP), developing five indigenous missiles: Agni, Prithvi, Akash, Trishul, and Nag.</p>
+        </div>
+        <div class="border-l-4 border-pink-600 pl-4">
+         <h4 class="font-bold text-gray-800 mb-1">1992-1999 - Chief Scientific Adviser</h4>
+         <p class="text-gray-700">Served as the Chief Scientific Adviser to the Prime Minister and Secretary of DRDO, playing a crucial role in the Pokhran-II nuclear tests.</p>
+        </div>
+        <div class="border-l-4 border-rose-600 pl-4">
+         <h4 class="font-bold text-gray-800 mb-1">2002-2007 - Presidency</h4>
+         <p class="text-gray-700">Served as the 11th President of India, becoming known as the "People's President" for his accessibility and connection with citizens, especially youth.</p>
+        </div>
+       </div>
+      </div>
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-8"><span class="text-3xl mr-2">💭</span> Philosophy and Vision</h3>
+      <p class="text-lg text-gray-700 leading-relaxed mb-4">Dr. Kalam believed that India could become a developed nation by 2020 if it focused on five key areas: agriculture and food processing, reliable and quality electric power, education and healthcare, information and communication technology, and strategic sectors. His vision document "India 2020" outlined this roadmap for transforming India into a knowledge superpower.</p>
+      <p class="text-lg text-gray-700 leading-relaxed mb-4">He was a strong advocate of making science and technology accessible to the common man. He believed that technology should serve humanity and solve real-world problems. His simplicity, despite holding the highest constitutional office, set an example of humble leadership. He lived in a small rented house, owned minimal possessions, and donated most of his earnings to charity.</p>
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-8"><span class="text-3xl mr-2">📖</span> Literary Contributions</h3>
+      <div class="grid md:grid-cols-2 gap-4 mb-6">
+       <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-5 rounded-xl shadow-md">
+        <h4 class="font-bold text-gray-800 mb-2 text-lg">Wings of Fire (1999)</h4>
+        <p class="text-gray-700 text-sm">An autobiography chronicling his journey from humble beginnings to becoming India's "Missile Man"</p>
+       </div>
+       <div class="bg-gradient-to-br from-emerald-50 to-teal-50 p-5 rounded-xl shadow-md">
+        <h4 class="font-bold text-gray-800 mb-2 text-lg">Ignited Minds (2002)</h4>
+        <p class="text-gray-700 text-sm">Exploring the role of youth in shaping India's future and unleashing the power of innovation</p>
+       </div>
+       <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-5 rounded-xl shadow-md">
+        <h4 class="font-bold text-gray-800 mb-2 text-lg">India 2020 (1998)</h4>
+        <p class="text-gray-700 text-sm">A vision document for transforming India into a developed nation through science and technology</p>
+       </div>
+       <div class="bg-gradient-to-br from-violet-50 to-purple-50 p-5 rounded-xl shadow-md">
+        <h4 class="font-bold text-gray-800 mb-2 text-lg">My Journey (2013)</h4>
+        <p class="text-gray-700 text-sm">Reflections on his transformative years as President and continued engagement with youth</p>
+       </div>
+      </div>
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-8"><span class="text-3xl mr-2">❤️</span> Personal Traits and Lifestyle</h3>
+      <p class="text-lg text-gray-700 leading-relaxed mb-4">Dr. Kalam was a vegetarian who practiced simplicity in every aspect of life. He was deeply spiritual, drawing inspiration from the Bhagavad Gita and the Quran. He played the veena and was an avid reader of Tamil literature. Despite his busy schedule, he made time to meet students, answer their letters, and guide them personally.</p>
+      <p class="text-lg text-gray-700 leading-relaxed mb-4">He remained a bachelor throughout his life, dedicating himself entirely to the service of the nation and education. His humility was legendary—he would often visit schools unannounced, sit with students on the floor, and share his experiences. He believed that every child is born with wings, and education is what teaches them how to fly.</p>
+      <h3 class="text-2xl font-bold text-gray-800 mb-4 mt-8"><span class="text-3xl mr-2">🌟</span> Final Days and Legacy</h3>
+      <p class="text-lg text-gray-700 leading-relaxed mb-4">On July 27, 2015, Dr. Kalam was delivering a lecture on "Creating a Livable Planet Earth" at the Indian Institute of Management, Shillong, when he collapsed and passed away. True to his character, he died doing what he loved most—inspiring young minds. His death was mourned across India and the world, with tributes pouring in from all sections of society.</p>
+      <p class="text-lg text-gray-700 leading-relaxed">Today, Dr. Kalam's birthday, October 15, is celebrated as World Students' Day in honor of his dedication to education. His life story continues to inspire millions to dream big, work hard, and contribute to making the world a better place. From a newspaper boy in Rameswaram to the President of India, his journey exemplifies the power of determination, education, and unwavering commitment to one's goals. Dr. APJ Abdul Kalam remains not just a name in history books, but a living inspiration for every Indian who dares to dream.</p>
+     </div><!-- Footer -->
+    </div>
+   </div>
+  </div>
+  <script>
+    const defaultConfig = {
+      background_color: "#1e3c72",
+      card_color: "#ffffff",
+      text_color: "#1f2937",
+      accent_color: "#2563eb",
+      secondary_accent: "#7e22ce",
+      font_family: "ui-sans-serif, system-ui, sans-serif",
+      font_size: 16,
+      page_title: "Dr. APJ Abdul Kalam",
+      subtitle: "The Missile Man of India & People's President",
+      intro_text: "Dr. Avul Pakir Jainulabdeen Abdul Kalam, born in Rameswaram, Tamil Nadu, rose from humble beginnings to become one of India's most beloved figures. A brilliant scientist and aerospace engineer, he played a pivotal role in India's civilian space program and military missile development, earning him the title \"Missile Man of India.\"",
+      quote_text: "Dream is not that which you see while sleeping, it is something that does not let you sleep.",
+      footer_text: "Forever in our hearts - A true inspiration for generations to come"
+    };
+
+    async function onConfigChange(config) {
+      const baseFontSize = config.font_size || defaultConfig.font_size;
+      const customFont = config.font_family || defaultConfig.font_family;
+      const baseFontStack = 'ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"';
+      const fontFamily = `${customFont}, ${baseFontStack}`;
+      
+      // Update colors
+      const app = document.getElementById('app');
+      app.style.background = `linear-gradient(135deg, ${config.background_color || defaultConfig.background_color} 0%, ${config.accent_color || defaultConfig.accent_color} 50%, ${config.secondary_accent || defaultConfig.secondary_accent} 100%)`;
+      
+      // Update text content
+      document.getElementById('page-title').textContent = config.page_title || defaultConfig.page_title;
+      document.getElementById('subtitle').textContent = config.subtitle || defaultConfig.subtitle;
+      document.getElementById('intro-text').textContent = config.intro_text || defaultConfig.intro_text;
+      document.getElementById('quote-text').textContent = config.quote_text || defaultConfig.quote_text;
+      document.getElementById('footer-text').textContent = config.footer_text || defaultConfig.footer_text;
+      
+      // Update font family and sizes
+      document.getElementById('page-title').style.fontFamily = fontFamily;
+      document.getElementById('page-title').style.fontSize = `${baseFontSize * 2.5}px`;
+      
+      document.getElementById('subtitle').style.fontFamily = fontFamily;
+      document.getElementById('subtitle').style.fontSize = `${baseFontSize * 1.25}px`;
+      
+      document.getElementById('intro-text').style.fontFamily = fontFamily;
+      document.getElementById('intro-text').style.fontSize = `${baseFontSize * 1.125}px`;
+      
+      document.getElementById('quote-text').style.fontFamily = fontFamily;
+      document.getElementById('quote-text').style.fontSize = `${baseFontSize * 1.5}px`;
+      
+      document.getElementById('footer-text').style.fontFamily = fontFamily;
+      document.getElementById('footer-text').style.fontSize = `${baseFontSize * 1.125}px`;
+      
+      // Update all paragraph and list text
+      const paragraphs = document.querySelectorAll('p:not(#page-title):not(#subtitle):not(#intro-text):not(#quote-text):not(#footer-text)');
+      paragraphs.forEach(p => {
+        p.style.fontFamily = fontFamily;
+        p.style.fontSize = `${baseFontSize * 1.125}px`;
+      });
+      
+      const headings = document.querySelectorAll('h2, h3');
+      headings.forEach(h => {
+        h.style.fontFamily = fontFamily;
+        const isH2 = h.tagName === 'H2';
+        h.style.fontSize = isH2 ? `${baseFontSize * 1.875}px` : `${baseFontSize * 1.5}px`;
+      });
+      
+      const listItems = document.querySelectorAll('li');
+      listItems.forEach(li => {
+        li.style.fontFamily = fontFamily;
+        li.style.fontSize = `${baseFontSize}px`;
+      });
+    }
+
+    function mapToCapabilities(config) {
+      return {
+        recolorables: [
+          {
+            get: () => config.background_color || defaultConfig.background_color,
+            set: (value) => {
+              config.background_color = value;
+              if (window.elementSdk) {
+                window.elementSdk.setConfig({ background_color: value });
+              }
+            }
+          },
+          {
+            get: () => config.card_color || defaultConfig.card_color,
+            set: (value) => {
+              config.card_color = value;
+              if (window.elementSdk) {
+                window.elementSdk.setConfig({ card_color: value });
+              }
+            }
+          },
+          {
+            get: () => config.text_color || defaultConfig.text_color,
+            set: (value) => {
+              config.text_color = value;
+              if (window.elementSdk) {
+                window.elementSdk.setConfig({ text_color: value });
+              }
+            }
+          },
+          {
+            get: () => config.accent_color || defaultConfig.accent_color,
+            set: (value) => {
+              config.accent_color = value;
+              if (window.elementSdk) {
+                window.elementSdk.setConfig({ accent_color: value });
+              }
+            }
+          },
+          {
+            get: () => config.secondary_accent || defaultConfig.secondary_accent,
+            set: (value) => {
+              config.secondary_accent = value;
+              if (window.elementSdk) {
+                window.elementSdk.setConfig({ secondary_accent: value });
+              }
+            }
+          }
+        ],
+        borderables: [],
+        fontEditable: {
+          get: () => config.font_family || defaultConfig.font_family,
+          set: (value) => {
+            config.font_family = value;
+            if (window.elementSdk) {
+              window.elementSdk.setConfig({ font_family: value });
+            }
+          }
+        },
+        fontSizeable: {
+          get: () => config.font_size || defaultConfig.font_size,
+          set: (value) => {
+            config.font_size = value;
+            if (window.elementSdk) {
+              window.elementSdk.setConfig({ font_size: value });
+            }
+          }
+        }
+      };
+    }
+
+    function mapToEditPanelValues(config) {
+      return new Map([
+        ["page_title", config.page_title || defaultConfig.page_title],
+        ["subtitle", config.subtitle || defaultConfig.subtitle],
+        ["intro_text", config.intro_text || defaultConfig.intro_text],
+        ["quote_text", config.quote_text || defaultConfig.quote_text],
+        ["footer_text", config.footer_text || defaultConfig.footer_text]
+      ]);
+    }
+
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange,
+        mapToCapabilities,
+        mapToEditPanelValues
+      });
+    }
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9abf14b466183989',t:'MTc2NTM5NDIzMS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
