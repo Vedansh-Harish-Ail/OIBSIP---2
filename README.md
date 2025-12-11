@@ -47,7 +47,7 @@ Place your image inside the `assets/` folder and update the `<img>` tag in `inde
      class="rounded-full shadow-lg object-cover portrait-img">
 ```
 
-To improve the look, add this CSS (optional):
+For perfect portraite, add this CSS (optional):
 
 ```css
 .portrait-img {
