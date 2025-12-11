@@ -33,15 +33,11 @@ my-tribute-project/
 │
 
 ├─ index.html
-
 ├─ styles.css
-
 ├─ README.md
-
 │
 └─ assets/
      ├─ apj-abdul-kalam.jpg
-     
      └─ banner.png
 
 
