@@ -1,10 +1,6 @@
-Great — since you uploaded your project file, I can now generate a **perfect, polished, professional, GitHub-ready README** that matches *your exact code* and project style.
-Here is your final README.md — clean, appealing, no comments, and fully matching your tribute page.
-(Included as plain Markdown so you can paste directly into GitHub.)
-
 ---
 
-# 🌟 Tribute to Dr. APJ Abdul Kalam
+# **🌟 Tribute to Dr. APJ Abdul Kalam**
 
 A responsive, visually rich tribute page dedicated to **Dr. APJ Abdul Kalam**, built using HTML and Tailwind CSS. The page features a clean layout, a replaceable portrait, and configurable text via a simple `defaultConfig` object.
 This project aims to honor one of India’s greatest scientists, teachers, and former Presidents.
