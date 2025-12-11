@@ -31,10 +31,15 @@ python -m http.server 8000
 
 /  
 ├─ index.html           # page (markup + small JS config)
+
 ├─ styles.css           # optional external stylesheet
+
 ├─ assets/
+
 │  ├─ apj-abdul-kalam.jpg  # portrait image
+
 │  └─ banner.png           # optional hero banner
+
 └─ README.md
 
 ---
